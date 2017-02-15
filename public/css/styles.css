@@ -1,0 +1,55 @@
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar {
+    border: 1px solid transparent;
+}
+
+.navbar-default
+{
+    background-color: #003399;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: @zindex-navbar-fixed;
+
+  // Undo the rounded corners
+  @media (min-width: @grid-float-breakpoint) {
+    border-radius: 0;
+  }
+}
+
+h1, p, h4, li, hr {
+    color: #ffffff;
+}
+.control-label {
+    color: #ffffff;
+}
+
+body {
+    background-color: #0099CC; 
+    position: relative;
+}
+
+.searchbox {
+  margin-top: 60px;
+}
+
+.dataselection {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.nav-tabs {
+    border-color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+.tabli {
+    color: #ffffff;
+}
